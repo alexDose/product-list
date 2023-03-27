@@ -1,0 +1,13 @@
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.empty {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}

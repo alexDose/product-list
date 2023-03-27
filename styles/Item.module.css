@@ -1,0 +1,40 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.title {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+.badge {
+    background-color: #535252;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
